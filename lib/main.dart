@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:oin_assignment/page/home_page.dart';
 
-import 'one/assignment_one.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,12 +13,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromRGBO(53, 168, 157, 1)),
         useMaterial3: true,
       ),
-      home: const AssignmentOne(),
+      home: const HomePage(),
     );
   }
 }

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'one/assignment_one.dart';
+import 'package:oin_assignment/page/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromRGBO(53, 168, 157, 1)),
         useMaterial3: true,
       ),
-      home: const AssignmentOne(),
+      home: HomePage(),
     );
   }
 }
